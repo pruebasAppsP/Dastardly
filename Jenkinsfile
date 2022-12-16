@@ -25,3 +25,4 @@ pipeline {
             junit testResults: 'dastardly-report.xml', skipPublishingChecks: true
         }
     }
+}
